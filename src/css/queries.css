@@ -1,0 +1,453 @@
+@media only screen and (max-width:1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .copyright {
+        width: 76%;
+        margin-left: 12%;
+    }
+
+    .row { padding: 0 2%; }
+
+    .step:first-child { margin-top: 15px; }
+
+    .plan-box { font-size: 19px; }
+}
+
+@media only screen and (max-width:1120px) {
+    
+    body { font-size: 18px; }
+
+    section { padding: 60px 0; }
+
+    .logo {
+        height: 95px;
+    }
+
+    .copyright {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .icon-big { margin-left: 35%; }
+
+    .steps-box {
+        margin-bottom: 0;
+    }
+
+    .steps-box:first-child {
+        margin-top: 20px;
+        padding-right: 5%;
+    }
+
+    .steps-box:last-child {
+        margin-top: 40px;
+        padding-right: 3%;
+    }
+
+    .step:first-child {
+        margin-top: 30px;
+    }
+
+    .app-screen {
+        width: 200px;
+    }
+
+    .btn-app img {
+        height: 48px;
+    }
+
+    .icon-small {
+        font-size: 128%;
+        margin-right: 5px;
+    }
+
+    .city-feature {
+        font-size: 17px;
+    }
+
+    .plan-box { font-size: 17px; }
+
+}
+
+@media screen and (max-width:1050px) {
+    @keyframes infinity-1 {
+        0% { 
+            transform-origin: 21% 50%; 
+            transform: rotateY(0deg);
+        }
+        100% {
+            transform-origin: 21% 50%;
+            transform: rotateY(1440deg);
+        }
+    }
+
+    .ion-ios-infinite-outline:hover {
+        animation-name: infinity-1;
+        animation-duration: 2s;
+        animation-delay: 0.3s;
+    }
+
+}
+
+@media only screen and (max-width:980px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    .logo {
+        height: 90px;
+    }
+
+    @keyframes infinity-2 {
+        0% { 
+            transform-origin: 22.75% 50%; 
+            transform: rotateY(0deg);
+        }
+        100% {
+            transform-origin: 22.75% 50%;
+            transform: rotateY(1440deg);
+        }
+    }
+
+    .ion-ios-infinite-outline:hover {
+        animation-name: infinity-2;
+        animation-duration: 2s;
+        animation-delay: 0.3s;
+    }
+
+    .app-screen {
+        width: 175px;
+    }
+
+    .btn-app img {
+        height: 45px;
+    }
+
+    .step {
+        margin-bottom: 38px;
+    }
+
+    .step:first-child {
+        margin-top: 0;
+    }
+
+    .step div {
+        height: 45px;
+        width: 45px;
+    }
+
+    .section-steps .box:last-child {
+        padding-right: 1%;
+    }
+
+    .city-feature {
+        font-size: 15px;
+    }
+
+    .social-links i {
+        font-size: 90%;
+    }
+
+    .plan-price {
+        font-size: 270%;
+    }
+
+    .section-form .row:nth-last-child(4) {
+        margin-bottom: 15px;
+    }
+
+    .section-form .row:nth-last-child(3) .span-2-of-3 {
+        margin-top: -5px;
+    }
+
+    .footer-nav li {
+        font-size: 83%;
+        font-weight: 400;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    .logo {
+        height: 85px;
+    }
+
+    .main-nav {
+        padding-right: 1%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .btn-app img {
+        height: 39px;
+    }
+
+    .app-screen {
+        width: 160px;
+    }
+
+    .step {
+        margin-bottom: 27px;
+        
+    }
+
+    .step div {
+        width: 40px;
+        height: 40px;
+        font-size: 120%;
+    }
+
+    #sf {
+        font-size: 15px;
+    }
+
+    .city-feature {
+        font-size: 14px;
+    
+    }
+
+    .box .city-feature:last-child {
+        font-size: 12px;
+    }
+
+    .icon-small {
+        font-size: 120%;
+        margin-right: 0px;
+    }
+
+    @keyframes infinity-3 {
+        0% { 
+            transform-origin: 25% 50%; 
+            transform: rotateY(0deg);
+        }
+        100% {
+            transform-origin: 25% 50%;
+            transform: rotateY(1440deg);
+        }
+    }
+
+    .ion-ios-infinite-outline:hover {
+        animation-name: infinity-3;
+        animation-duration: 2s;
+        animation-delay: 0.3s;
+    }
+
+    .plan-price {
+        font-size: 230%;
+        font-weight: 200;
+    }
+
+    #last-pp {
+        margin-bottom: 30px;
+    }
+
+    .plan-box .btn {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    footer {
+        padding: 40px 30px;
+    }
+
+    .footer-nav li {
+        font-size: 77%;
+    }
+
+    footer .col:last-child {
+        margin-left: 0;
+    }
+    
+}
+
+@media only screen and (max-width:680px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo {
+        height: 75px;
+    }
+
+    .main-nav {
+        padding-right: 2%;
+    }
+
+    .main-nav li {
+        margin-left: 22px;
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .hero-text-box .btn {
+        padding: 8px 20px;
+    }
+
+    .icon-big {
+        font-size: 300%;
+        margin-left: 33%;
+    }
+
+    @keyframes infinity-4 {
+        0% { 
+            transform-origin: 22% 50%; 
+            transform: rotateY(0deg);
+        }
+        100% {
+            transform-origin: 22% 50%;
+            transform: rotateY(1440deg);
+        }
+    }
+
+    .ion-ios-infinite-outline:hover {
+        animation-name: infinity-4;
+        animation-duration: 2s;
+        animation-delay: 0.3s;
+    }
+
+    .app-screen {
+        width: 145px;
+    }
+
+    .step p {
+        font-size: 13px;
+    }
+
+    .btn-app img {
+        height: 30px;
+    }
+
+    .btn-app img:last-child {
+        margin-right: 0;
+    }
+
+    #sf {
+        font-size: 13px;
+        margin-right: 0;
+    }
+
+    .city-feature {
+        font-size: 13px;
+    
+    }
+
+    .box .city-feature:last-child {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    blockquote {
+        font-weight: 100;
+    }
+
+    .plan-price {
+        font-size: 180%;
+        font-weight: 300;
+    }
+
+    .plan-box ul {
+        font-size: 14px;
+    }
+
+    .plan-box .btn {
+        font-size: 11px;
+        font-weight: 400;
+        padding: 10px 20px;
+    }
+
+    .footer-nav li {
+        margin-right: 13px;
+        font-size: 75%;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width:570px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    .logo {
+        height: 65px;
+    }
+
+    @keyframes infinity-5 {
+        0% { 
+            transform-origin: 23% 50%; 
+            transform: rotateY(0deg);
+        }
+        100% {
+            transform-origin: 23% 50%;
+            transform: rotateY(1440deg);
+        }
+    }
+
+    .ion-ios-infinite-outline:hover {
+        animation-name: infinity-5;
+        animation-duration: 2s;
+        animation-delay: 0.3s;
+    }
+
+    #sf {
+        font-size: 99.9%;
+    }
+
+    .box .city-feature:last-child {
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    cite {
+        font-size: 12px;
+    }
+
+    .plan-price {
+        font-size: 23px;
+    }
+
+    .plan-price span {
+        font-size: 8px;
+        font-weight: 900;
+    }
+
+    .plan-box li {
+        font-size: 12px;
+    }
+
+    .plan-box i {
+        font-size: 270%;
+    }
+
+    .ion-ios-close-empty {
+        margin-bottom: 30px;
+    }
+
+    .plan-box .btn {
+        padding: 10px;
+    }
+
+    .footer-nav li {
+        font-size: 73%;
+        margin-right: 11px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    
+}

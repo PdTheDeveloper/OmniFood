@@ -16,6 +16,7 @@
             <nav>
                 <div class="row">
                     <img src="./src/img/logo-white.png" alt="Omnifood" class="logo">
+                    <img src="./src/img/logo.png" alt="Omnifood" class="logo-black">
                     <ul class="main-nav">
                         <li><a href="#">Food delivery</a></li>
                         <li><a href="#">How it works</a></li>
@@ -30,7 +31,7 @@
                 <a class="btn btn-ghost" href="#">Show me more</a>
             </div>
         </header>
-        <section class="section-features">
+        <section class="section-features js--section-features">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food.</h2>
                 <p class="copyright">
@@ -40,7 +41,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-4 box">
-                    <i class="ion-ios-infinite-outline icon-big"></i>
+                    <i id="infinity" class="ion-ios-infinite-outline icon-big"></i>
                     <h3>Up to 365 days/year</h3>
                     <p>
                         Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. 
@@ -406,6 +407,9 @@
                 </p>
             </div>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./vendors/js/jquery.waypoints.min.js"></script>
+        <script src="./src/js/script.js"></script>
     </body>
 </html>
 

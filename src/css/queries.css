@@ -34,6 +34,10 @@
 
     .icon-big { margin-left: 35%; }
 
+    #infinity {
+        transform-origin: 22% 50%;
+    }
+
     .steps-box {
         margin-bottom: 0;
     }
@@ -74,23 +78,10 @@
 }
 
 @media screen and (max-width:1050px) {
-    @keyframes infinity-1 {
-        0% { 
-            transform-origin: 21% 50%; 
-            transform: rotateY(0deg);
-        }
-        100% {
-            transform-origin: 21% 50%;
-            transform: rotateY(1440deg);
-        }
+    
+    #infinity {
+        transform-origin: 21% 50%;
     }
-
-    .ion-ios-infinite-outline:hover {
-        animation-name: infinity-1;
-        animation-duration: 2s;
-        animation-delay: 0.3s;
-    }
-
 }
 
 @media only screen and (max-width:980px) {
@@ -103,21 +94,8 @@
         height: 90px;
     }
 
-    @keyframes infinity-2 {
-        0% { 
-            transform-origin: 22.75% 50%; 
-            transform: rotateY(0deg);
-        }
-        100% {
-            transform-origin: 22.75% 50%;
-            transform: rotateY(1440deg);
-        }
-    }
-
-    .ion-ios-infinite-outline:hover {
-        animation-name: infinity-2;
-        animation-duration: 2s;
-        animation-delay: 0.3s;
+    #infinity {
+        transform-origin: 22.75% 50%;
     }
 
     .app-screen {
@@ -225,22 +203,9 @@
         font-size: 120%;
         margin-right: 0px;
     }
-
-    @keyframes infinity-3 {
-        0% { 
-            transform-origin: 25% 50%; 
-            transform: rotateY(0deg);
-        }
-        100% {
-            transform-origin: 25% 50%;
-            transform: rotateY(1440deg);
-        }
-    }
-
-    .ion-ios-infinite-outline:hover {
-        animation-name: infinity-3;
-        animation-duration: 2s;
-        animation-delay: 0.3s;
+    
+    #infinity {
+        transform-origin: 25% 50%;
     }
 
     .plan-price {
@@ -295,6 +260,10 @@
 
     .hero-text-box .btn {
         padding: 8px 20px;
+    }
+
+    .section-features {
+        padding-bottom: 0;
     }
 
     .icon-big {
@@ -386,21 +355,13 @@
         height: 65px;
     }
 
-    @keyframes infinity-5 {
-        0% { 
-            transform-origin: 23% 50%; 
-            transform: rotateY(0deg);
-        }
-        100% {
-            transform-origin: 23% 50%;
-            transform: rotateY(1440deg);
-        }
+    #infinity {
+        transform-origin: 23% 50%;
     }
 
-    .ion-ios-infinite-outline:hover {
-        animation-name: infinity-5;
-        animation-duration: 2s;
-        animation-delay: 0.3s;
+    .step div {
+        height: 35px;
+        width: 35px;
     }
 
     #sf {
@@ -448,6 +409,42 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
-    
+@media only screen and (max-width: 499px) {
+    .logo {
+        height: 60px;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .icon-big , #carrot {
+        margin-left: 43%;
+    }
+
+    #infinity {
+        transform-origin: 14% 50%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .app-screen {
+        width: 200px;
+        margin-left: 11%;
+    }
+
+    #ios-download {
+        margin-left: 28%;   
+    }
+
+    #infinity {
+        transform-origin: 4% 50%;
+    }
 }
